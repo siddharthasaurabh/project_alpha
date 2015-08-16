@@ -1,0 +1,51 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vehicle Service</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript">
+        
+        function validateLogin()
+        {
+        var var1=document.getElementById("UN").value;
+        var var2=document.getElementById("PW").value;
+        
+        if (var1==='a'&&var2==='a')
+            alert("Yayy");
+        else
+            alert("Nayy");
+        
+        }
+        </script>
+        
+        <style type="text/css">
+        .div1style {
+            position: relative;
+            top: 100px;
+            left: 200px;
+            border-radius: 25px;
+            border: 2px solid #8AC007;
+            padding: 50px;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0px 0px 20px #888888;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Vehicle Service </h1>
+        <div id="div1" class="div1style">
+        Username: 
+        <input type="text" name="Username" id="UN" >
+        <br/><br/>
+        Password: 
+        <input type="password" name="txtPassword" id="PW" >
+        <br/><br/>
+        <button onclick="validateLogin();" type="submit">Login</button>           
+        </div>
+    </body>
+</html>
