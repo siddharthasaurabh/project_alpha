@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 17, 2015, 1:26:29 AM
+    Author     : JH028437
+*/
+
+ 
+        .div1style {
+            position: relative;
+            top: 100px;
+            left: 540px;
+            border-radius: 25px;
+            border: 2px solid #8AC007;
+            padding: 25px;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0px 0px 20px #888888;
+            }
+            .h1style{
+            position: relative;
+            left: 620px;
+            font-size: 30pt;
+            font-family: serif;
+            font-weight: 100;
+            font-style: normal;
+            }
+            .pstyle{
+            font-size: 24pt;
+            font-family: serif;
+            font-style: normal;
+            background-color: #66CD00;
+            }
+            .btnstyle{
+            font-size: 15pt;
+            font-family: serif;
+            font-style: normal;
+            box-shadow: 0px 0px 2px #888888;
+            position: relative;
+            left: 100px;
+            }
